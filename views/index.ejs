@@ -1,0 +1,15 @@
+<%- include _header %>
+
+<div class="login">
+  <h1>Book unique places to stay and things to do</h1>
+  <form method="post" action="/submit-data">
+    <p><input type="text" name="Where:" value="" placeholder="Enter the location"></p>
+    <p><input type="text" name="Guests:" value="" placeholder="Enter no. of guests"></p>
+    <p class="submit"><input type="submit" name="commit" value="Let me in."></p>
+  </form>
+</div>
+
+<div class="login-help">
+  <p>Already have an Airbnb account? <a href="/login">Log In</a>.</p>
+</div>
+<% include _footer %>

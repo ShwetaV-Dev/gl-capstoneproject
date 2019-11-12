@@ -1,0 +1,21 @@
+{
+  "name": "airbnb-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "description": "my first node js website",
+  "author": "Shweta",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "license": "ISC"
+}
